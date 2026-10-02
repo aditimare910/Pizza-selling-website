@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>pizzaro</title>
+  <link rel="stylesheet" href="pizza.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <!--link for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body id="top">
+
+  <a href="#top" class="top-btn">
+    <i class="fa-solid fa-arrow-up"></i>
+</a>
+
+  <header>
+    <div class="logo">pizzaro</div>
+    <nav class="nav-links">
+      <a href="#menu">Menu</a>
+      <a href="#features">Features</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="cta-btn">Order Now</button>
+  </header>
+  
+  <!--hero section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Pizzaro — Taste the Art of Pizza</h1>
+      <p>Freshly baked pizzas at pizzaro made with premium ingredients and loaded with unforgettable flavors. order your favourite pizza today!</p>
+      <button class="cta-btn">Explore Menu</button>
+      <button class="cta-btn">Contact Us</button>
+    </div>
+    <div class="hero-image">
+      <img src="Margherita.png.jpeg" height="600px" alt="pizzaro">
+    </div>
+  </section>
+
+  <section class="offer">
+    <h2>🔥 Special Offer</h2>
+    <p>Get <b>20% OFF</b> on your first online order.</p>
+    <h3>Use Code: <span>PIZZA20</span></h3>
+</section>
+  
+  <!--Menu section -->
+  <section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-filters">
+      <button class="filter-btn active"data-filter="all">All</button>
+      <button class="filter-btn active"data-filter="pizza">Pizzas</button>
+      <button class="filter-btn active"data-filter="pasta">Pastas</button>
+    </div>
+    <div class="menu-grid">
+      <div class="menu-card" data-category="pizza">
+        <img src="monzzarella.png.jpeg" height="200px">
+        <div class="menu-card-content">
+          <h3>Classic Margherita</h3>
+          <p>Fresh tomatoes, creamy mozzarella, and aromatic basil baked on a perfectly crispy crust.</p>
+          <div class="price">$14.99</div>
+          <button class="order-btn">Order Now</button>
+        </div>
+      </div>
+      <div class="menu-card" 
+      data-category="Pizza">
+      <img src="jalepeno.jpeg" height="200px" alt="jalapeno pizza">
+
+      <div class="menu-card-content">
+        <h3>Jalepeno pizza</h3>
+        <p>Loaded with fresh jalapenos and cheesy goodness for the perfect kick.</p>
+        <div class="price">$16.99</div>
+        <button class="order-btn">Order Now</button>
+    </div>
+    </div>
+    <i class="fa fa-vine" aria-hidden="true"></i>
+    <div class="menu-card" data-category="pasta">
+<img src="Spaghetti.jpg.jpeg" height="200px" alt="Spaghetti">
+<div class="menu-card-content">
+  <h3>Spaghetti Carbonara</h3>
+  <p>Classic spaghetti tossed in a silky sauce for the perfect comfort meal.</p>
+  <div class="price">$12.99</div>
+  <button class="order-btn">Order Now</button>
+</div>
+  </section>
+  
+
+  <section class="gallery">
+    <h2>Pizza Gallery</h2>
+
+    <div class="gallery-grid">
+        <img src="monzzarella.png.jpeg" alt="Pizza 1">
+        <img src="jalepeno.jpeg" alt="Pizza 2">
+        <img src="Margherita.png.jpeg" alt="Pizza 3">
+        <img src="monzzarella.png.jpeg" alt="Pizza 4">
+    </div>
+</section>
+  <!--features section -->
+  <section class="features" id="features">
+    <div class="features-grid">
+      <div class="features-card">
+        <i class="fa-solid fa-fire"></i>
+        <h3>Wood-Fire Oven</h3>
+        <p>Baked in a traditional wood fire oven for authentic flavour and perfect crispiness.</p>
+    </div>
+    <div class="features-card">
+      <i class="fa-solid fa-seedling"></i>
+      <h3>Local Ingredients</h3>
+      <p>Made with fresh, locally sourced ingredients for authentic taste in every bite.</p>
+    </div>
+    <div class="features-card">
+      <i class="fa-solid fa-clock"></i>
+      <h3>Fast Delivery</h3>
+      <p>Hot and fresh pizza delivered to your doorstep in just 30 minutes or free .</p>
+    </div>
+    <div class="features-card">
+    <i class="fa-solid fa-pizza-slice"></i>
+    <h3>Best Quality</h3>
+    <p>We use fresh vegetables, premium cheese, and high-quality ingredients to prepare every pizza.</p>
+</div>
+</div>
+
+  </section>
+  <!--Testimonials section -->
+  <section class="testimonials" id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonials-card">
+        <img src="profile.jpg.jpeg" height="80px" alt="Customer">
+        <h3>Melo Johnson</h3>
+      <div class="stars">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+</div>
+        <p>“The crust was perfect and delivery was super fast!”</p>
+      </div>
+          <div class="testimonials-grid">
+      <div class="testimonials-card">
+        <img src="profile2.jpg.jpeg" height="80px" alt="Customer">
+        <h3>Mia Taylor</h3>
+        <p>“Best pizza I’ve ever had — fresh, cheesy, and full of flavor!”</p>
+        <div class="stars">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+</div>
+      </div>
+    </div>
+  </section>
+
+<section class="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <h3>Do you offer home delivery?</h3>
+        <p>Yes, we deliver fresh pizzas within 30 minutes.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>What are your opening hours?</h3>
+        <p>We are open every day from 10:00 AM to 11:00 PM.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>Do you have vegetarian pizzas?</h3>
+        <p>Yes, we have a variety of delicious vegetarian pizzas.</p>
+    </div>
+</section>
+
+  <section class="newsletter">
+    <h2>Get Special Offers</h2>
+    <p>Subscribe to receive updates and exclusive pizza deals.</p>
+
+    <input type="email" placeholder="Enter your email">
+    <button class="cta-btn">Subscribe</button>
+</section>
+  <!--footer-->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h3>pizzaro</h3>
+        <p>“More than pizza — an experience in every bite.”</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+         <li><a href="#features">Features</a></li>
+         <li><a href="#testimonials">Testimonials</a></li>
+         <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+       <div class="footer-col">
+         <h3>Contact</h3>
+         <p>001 pizza colony,USA</p>
+         <p>(111)-123-0001</p>
+         <p>info@pizzaro.com</p>
+
+         <h4>Opening Hours</h4>
+         <P> Mon-Sun: 10:00 AM - 11:00 PM</P>
+       </div>
+      
+       <div class="social-links">
+         <a href="#"><i class="fa-brands fa-instagram"></i></a>
+         <a href="#"><i class="fa-brands fa-facebook"></i></a>
+         <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <div class="copyright">
+     <p> ©2026 pizzora.All rights reserved.</p>
+    </div>
+  </footer>
+  
+  
+  
+  
+  <!--link to js file-->
+  <script src="pizza.js"></script>
+</body>
+</html>
